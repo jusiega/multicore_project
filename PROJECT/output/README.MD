@@ -1,3 +1,5 @@
+# put out
+
 default output storing folder, even though there hardly is a default in this program as it is all dependant on user input but whatever.
 
 the file 666.jpg was named as such due to the diabolic look of the image stored in it. it was obtained in early development stages of the
