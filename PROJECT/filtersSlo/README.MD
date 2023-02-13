@@ -5,3 +5,5 @@ the more basic version of the program. a thing that was not attempted was to che
 change the extension to .cpp and compile with g++ to have a moderately useless program which may be run on any computer.
 
 the timestamp is very late and the files have no history because in my infinite wisdom I deleted the first version of the files before updating them
+
+regrarding the difference of gaussians edge detection: this filter is not normalised and this is why the output of the filter is miserably dark as evidenced in the report. a crude fix to that would be to multiply the resulting image by a factor of 2.
