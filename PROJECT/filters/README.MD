@@ -1,3 +1,5 @@
+#i am speed
+
 I have to admit I did not include error handling and I am sorry.
 
 still maybe it was not such a dumb move to devote time to thinking of where errors might be rather than writing hundreds of lines of error handling code which I forgot how to write.
