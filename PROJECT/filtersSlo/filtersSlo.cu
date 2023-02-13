@@ -779,9 +779,7 @@ default:
 break;
 }
  
-    free(rnew);
-    free(gnew);
-    free(bnew);
+
 
 /////////IDENTITY TRANSFORMATION SEPARABLE/////////////////////////////////////// 
 
