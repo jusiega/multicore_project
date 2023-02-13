@@ -8,7 +8,7 @@ as a result most of the program works (fast) apart from the edge handling inside
 
 the compiled files really should and could have landed here with an earlier timestamp but I can't use git properly. the early timestamp is why I kept the filters.cu file as it is. it is not broken but outputs a misleading line which suggests that there is a default.bmp file in the samples folder, which there isn't now in order to reduce the size of the repository but it can be easily prepared using paint.
 
-this problematic output line can be replaced with "../samples/default.jpg ../output/test.bmp 0 7 0" and the initial value of source variable likewise with "../samples/default.jpg".
+this problematic output line can be replaced with "../samples/default.jpg ../output/test.bmp 0 7 0" and the initial value of source variable likewise with "../samples/default.jpg". in practice these initial values might be even impossible to pass on to the rest of the program, I tried it at one point and failed but maybe something else was wrong.
 
 the /a.out is kept as a curiosity and definitely does not work well.
 
