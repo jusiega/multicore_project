@@ -63,7 +63,7 @@ void fblur(float* r, float* g, float* b, float* r2, float* g2, float* b2, int wi
             green_tmp=0;
             blu_tmp=0;
         }
-    }
+    }/*
     //EDG TOP
     for(int i=0; i<shift; i++)
     {
@@ -154,7 +154,7 @@ void fblur(float* r, float* g, float* b, float* r2, float* g2, float* b2, int wi
             green_tmp=0;
             blu_tmp=0;
         }
-    }    
+    }  */  
 
 
     for(int i=0; i<height; i++) 
@@ -365,8 +365,8 @@ int main()
 {
     
     std::cout<<"welcome. input (separated by spaces) your source image path, your chosen destination path and desired operation and parameters for it."<<std::endl<<"0: gaussian blur (parameter: standard deviation (px, float))  ///  1: box blur (parameter: size (px, int, odd))"<<std::endl<<"2: circular box blur (bokeh) (parameter: diameter (px, int, odd))  ///  3: sobel edge detection (parameters: vertical detection, horizontal detection (bool))"<<std::endl<<"4: difference of gaussians edge detection (2 parameters: stdev1, stdev2 (float>0))  ///  5:identity transformation (parameter: size (int)) (useless)"<<std::endl<<"6: unsharp mask simple (parameter: strength (float))  ///  7: unseparated (slow) box blur (parameter: size(px, int, odd))"<<std::endl<<"always type in two numbers as parameters, if the process uses only one parameter set the second one to whatever. 0 or less sets parameter to its default value"<<std::endl;
-    std::cout<<"example input: '../samples/default.bmp ../output/test.bmp 0 7 0'"<<std::endl<<std::endl;
-    std::string source="default.bmp";
+    std::cout<<"example input: '../samples/default.jpg ../output/test.bmp 0 7 0'"<<std::endl<<std::endl;
+    std::string source="default.jpg";
     std::string destination="output/test.bmp";
     int width=0;
     int height=0;
