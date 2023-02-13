@@ -6,4 +6,4 @@ change the extension to .cpp and compile with g++ to have a moderately useless p
 
 the timestamp is very late and the files have no history because in my infinite wisdom I deleted the first version of the files before updating them
 
-regrarding the difference of gaussians edge detection: this filter is not normalised and this is why the output of the filter is miserably dark as evidenced in the report. a crude fix to that would be to multiply the resulting image by a factor of 2.
+regrarding the difference of gaussians edge detection: this filter is not normalised and this is why the output of the filter is miserably dark as evidenced in the report (therein the chosen parameters of the filter were also most definitely suboptimal). a crude fix to that would be to multiply the resulting image by a factor of 2.
