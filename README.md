@@ -10,6 +10,6 @@ the folders of programs contain the source codes and compiled programs as were u
 
 in the program folders are other readme files which dive into more intricate (less understandable) details of the project.
 
-there is a sample input folder containing some samples and a sample output folder as well. also included is the cuda environment which does many important things.
+there is a sample input folder containing some samples and a sample output folder as well. also included is the cuda environment which does many important things (I have absolutely no idea what it does but the /Common folder contains the two image libraries on which the programs depend).
 
-thanks for clicking here or maybe even reading
+thanks for clicking here or maybe even reading this.
