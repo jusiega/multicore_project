@@ -8,6 +8,8 @@ as a result most of the program works (fast) apart from the edge handling inside
 
 the compiled files really should and could have landed here with an earlier timestamp but I can't use git properly. the early timestamp is why I kept the filters.cu file as it is. it is not broken but outputs a misleading line which suggests that there is a default.bmp file in the samples folder, which there isn't now in order to reduce the size of the repository but it can be easily prepared using paint.
 
+this problematic output line can be replaced with "../samples/default.jpg ../output/test.bmp 0 7 0" and the initial value of source variable likewise with "../samples/default.jpg".
+
 the /a.out is kept as a curiosity and definitely does not work well.
 
 perhaps it would be a good idea to also parallelise the r, g, and b channels filtering. beyond the lazyness that made me not do it there was an idea that this might not be beneficial at all for execution configurations which require any queueing and sequential processing to be done on the gpu so to speak, so for sufficiently large images in essence. perhaps this thought was a late night illusion though.
