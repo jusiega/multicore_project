@@ -12,4 +12,4 @@ in the program folders are other readme files which dive into more intricate (le
 
 there is a sample input folder containing some samples and a sample output folder as well. also included is the cuda environment which does many important things (I have absolutely no idea what it does but the /Common folder contains the two image libraries on which the programs depend).
 
-thanks for clicking here or maybe even reading this.
+thanks for clicking here
